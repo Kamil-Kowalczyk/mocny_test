@@ -1,0 +1,80 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Frontend Solution ###
+
+# Compiled output
+/frontend-solution/dist
+/frontend-solution/tmp
+/frontend-solution/out-tsc
+/frontend-solution/bazel-out
+
+# Node
+/frontend-solution/node_modules
+/frontend-solution/npm-debug.log
+/frontend-solution/yarn-error.log
+
+# IDEs and editors
+/frontend-solution/.idea/
+/frontend-solution/.project
+/frontend-solution/.classpath
+/frontend-solution/.c9/
+/frontend-solution/*.launch
+/frontend-solution/.settings/
+/frontend-solution/*.sublime-workspace
+
+# Visual Studio Code
+/frontend-solution/.vscode/*
+/frontend-solution/!.vscode/settings.json
+/frontend-solution/!.vscode/tasks.json
+/frontend-solution/!.vscode/launch.json
+/frontend-solution/!.vscode/extensions.json
+/frontend-solution/.history/*
+
+# Miscellaneous
+/frontend-solution/.angular/cache
+/frontend-solution/.sass-cache/
+/frontend-solution/connect.lock
+/frontend-solution/coverage
+/frontend-solution/libpeerconnection.log
+/frontend-solution/testem.log
+/frontend-solution/typings
+
+# System files
+.DS_Store
+Thumbs.db
