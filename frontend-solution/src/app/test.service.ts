@@ -9,7 +9,7 @@ export class TestService {
 
   constructor(private http: HttpClient) { }
 
-  test(): Observable<string> {
-    return this.http.get<string>('localhost:8080/api/test');
+  test(): Observable<any> {
+    return this.http.get<any>('/api/test');
   }
 }
