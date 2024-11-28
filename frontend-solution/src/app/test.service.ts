@@ -10,6 +10,6 @@ export class TestService {
   constructor(private http: HttpClient) { }
 
   test(): Observable<any> {
-    return this.http.get<any>('/api/test');
+    return this.http.get<any>('http://localhost:8080/api/test');
   }
 }
